@@ -1,0 +1,9 @@
+services:
+  refinedc:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - $PWD:/home/projects
+    working_dir: /home/projects
+    entrypoint: ["bash"]
