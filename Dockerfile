@@ -8,5 +8,5 @@ RUN opam repo add coq-released "https://coq.inria.fr/opam/released" && \
     opam pin add -n -y cerberus-lib "git+https://github.com/rems-project/cerberus.git#57c0e80af140651aad72e3514133229425aeb102" && \
     opam pin add -n -y cerberus "git+https://github.com/rems-project/cerberus.git#57c0e80af140651aad72e3514133229425aeb102" && \
     opam pin add refinedc "git+https://gitlab.mpi-sws.org/iris/refinedc.git"
+ENV PATH="/home/ocaml/.opam/refinedc-projects/bin:${PATH}"
 
-WORKDIR /home/projects

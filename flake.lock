@@ -1,16 +1,135 @@
 {
   "nodes": {
+    "cerberus": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1690220075,
+        "narHash": "sha256-bQWlZBwdONX8pTdXxPq4x+JxvOWV7rmcjCog7eX/hu4=",
+        "owner": "rems-project",
+        "repo": "cerberus",
+        "rev": "57c0e80af140651aad72e3514133229425aeb102",
+        "type": "github"
+      },
+      "original": {
+        "owner": "rems-project",
+        "repo": "cerberus",
+        "rev": "57c0e80af140651aad72e3514133229425aeb102",
+        "type": "github"
+      }
+    },
+    "cerberus-lib": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1690220075,
+        "narHash": "sha256-bQWlZBwdONX8pTdXxPq4x+JxvOWV7rmcjCog7eX/hu4=",
+        "owner": "rems-project",
+        "repo": "cerberus-lib",
+        "rev": "57c0e80af140651aad72e3514133229425aeb102",
+        "type": "github"
+      },
+      "original": {
+        "owner": "rems-project",
+        "repo": "cerberus-lib",
+        "rev": "57c0e80af140651aad72e3514133229425aeb102",
+        "type": "github"
+      }
+    },
+    "flake-compat": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1696426674,
+        "narHash": "sha256-kvjfFW7WAETZlt09AgDn1MrtKzP7t90Vf7vypd3OL1U=",
+        "owner": "edolstra",
+        "repo": "flake-compat",
+        "rev": "0f9255e01c2351cc7d116c072cb317785dd33b33",
+        "type": "github"
+      },
+      "original": {
+        "owner": "edolstra",
+        "repo": "flake-compat",
+        "type": "github"
+      }
+    },
+    "flake-utils": {
+      "inputs": {
+        "systems": "systems"
+      },
+      "locked": {
+        "lastModified": 1726560853,
+        "narHash": "sha256-X6rJYSESBVr3hBoH0WbKE5KvhPU5bloyZ2L4K60/fPQ=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "c1dfcf08411b08f6b8615f7d8971a2bfa81d5e8a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "fmt": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1737483750,
+        "narHash": "sha256-5An1wq5U8sNycOBBg3nsDDgpwBmR9liOpDGlhliA6Xo=",
+        "owner": "numtide",
+        "repo": "treefmt-nix",
+        "rev": "f2cc121df15418d028a59c9737d38e3a90fbaf8f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "treefmt-nix",
+        "type": "github"
+      }
+    },
+    "iris-dev": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1737113020,
+        "narHash": "sha256-2gq3zJ2QzIa5+GHWrilGCFWOPwKUIB6T0E6igE1zA2A=",
+        "ref": "refs/heads/master",
+        "rev": "568432deef93dfd011f731294091195957adf772",
+        "revCount": 5262,
+        "type": "git",
+        "url": "https://gitlab.mpi-sws.org/iris/opam.git"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://gitlab.mpi-sws.org/iris/opam.git"
+      }
+    },
+    "mirage-opam-overlays": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1710922379,
+        "narHash": "sha256-j4QREQDUf8oHOX7qg6wAOupgsNQoYlufxoPrgagD+pY=",
+        "owner": "dune-universe",
+        "repo": "mirage-opam-overlays",
+        "rev": "797cb363df3ff763c43c8fbec5cd44de2878757e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "dune-universe",
+        "repo": "mirage-opam-overlays",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1736192377,
-        "narHash": "sha256-Vjg5Ft+JcUcQtclcaC/muSuBQOnP8SsCIpC3W5uaYPA=",
+        "lastModified": 1735554305,
+        "narHash": "sha256-zExSA1i/b+1NMRhGGLtNfFGXgLtgo+dcuzHzaWA6w3Q=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "a8af4a1033a3ab6d14d37731512ecd8bbf39c2b9",
+        "rev": "0e82ab234249d8eee3e8c91437802b32c74bb3fd",
         "type": "github"
       },
       "original": {
         "owner": "nixos",
+        "ref": "nixpkgs-unstable",
         "repo": "nixpkgs",
         "type": "github"
       }
@@ -25,6 +144,114 @@
       "original": {
         "type": "tarball",
         "url": "https://github.com/NixOS/nixpkgs/archive/e9b51731911566bbf7e4895475a87fe06961de0b.tar.gz"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1736192377,
+        "narHash": "sha256-Vjg5Ft+JcUcQtclcaC/muSuBQOnP8SsCIpC3W5uaYPA=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "a8af4a1033a3ab6d14d37731512ecd8bbf39c2b9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_3": {
+      "locked": {
+        "lastModified": 1730785428,
+        "narHash": "sha256-Zwl8YgTVJTEum+L+0zVAWvXAGbWAuXHax3KzuejaDyo=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "4aa36568d413aca0ea84a1684d2d46f55dbabad7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "opam-nix": {
+      "inputs": {
+        "flake-compat": "flake-compat",
+        "flake-utils": "flake-utils",
+        "mirage-opam-overlays": "mirage-opam-overlays",
+        "nixpkgs": "nixpkgs_3",
+        "opam-overlays": "opam-overlays",
+        "opam-repository": "opam-repository",
+        "opam2json": "opam2json"
+      },
+      "locked": {
+        "lastModified": 1737504598,
+        "narHash": "sha256-B05H6yG4dNYEUr6UBIYzTT6+kwhC0nk4JDETgm8eop4=",
+        "owner": "tweag",
+        "repo": "opam-nix",
+        "rev": "6302c3ce338a1288ab5fbbddeab5042b47a6baa8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tweag",
+        "repo": "opam-nix",
+        "type": "github"
+      }
+    },
+    "opam-overlays": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1726822209,
+        "narHash": "sha256-bwM18ydNT9fYq91xfn4gmS21q322NYrKwfq0ldG9GYw=",
+        "owner": "dune-universe",
+        "repo": "opam-overlays",
+        "rev": "f2bec38beca4aea9e481f2fd3ee319c519124649",
+        "type": "github"
+      },
+      "original": {
+        "owner": "dune-universe",
+        "repo": "opam-overlays",
+        "type": "github"
+      }
+    },
+    "opam-repository": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1736935757,
+        "narHash": "sha256-LNkGSkZJXJmxpUd+luDUIIV/1B5MZIBMTB1qZqypa4o=",
+        "owner": "ocaml",
+        "repo": "opam-repository",
+        "rev": "a8b00ead922e2049581ab16994586ed4ddbdb784",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ocaml",
+        "repo": "opam-repository",
+        "type": "github"
+      }
+    },
+    "opam2json": {
+      "inputs": {
+        "nixpkgs": [
+          "opam-nix",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1671540003,
+        "narHash": "sha256-5pXfbUfpVABtKbii6aaI2EdAZTjHJ2QntEf0QD2O5AM=",
+        "owner": "tweag",
+        "repo": "opam2json",
+        "rev": "819d291ea95e271b0e6027679de6abb4d4f7f680",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tweag",
+        "repo": "opam2json",
+        "type": "github"
       }
     },
     "parts": {
@@ -45,10 +272,47 @@
         "type": "github"
       }
     },
+    "refinedc": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1736235290,
+        "narHash": "sha256-M5qi+XUegE5yUgXi9Cere7cX+1T35iv6Hub2lpLmQCQ=",
+        "ref": "refs/heads/master",
+        "rev": "fecd1e6d396dde55e464a71d62e908d60fe920b9",
+        "revCount": 633,
+        "type": "git",
+        "url": "https://gitlab.mpi-sws.org/iris/refinedc.git"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://gitlab.mpi-sws.org/iris/refinedc.git"
+      }
+    },
     "root": {
       "inputs": {
-        "nixpkgs": "nixpkgs",
-        "parts": "parts"
+        "cerberus": "cerberus",
+        "cerberus-lib": "cerberus-lib",
+        "fmt": "fmt",
+        "iris-dev": "iris-dev",
+        "nixpkgs": "nixpkgs_2",
+        "opam-nix": "opam-nix",
+        "parts": "parts",
+        "refinedc": "refinedc"
+      }
+    },
+    "systems": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
       }
     }
   },

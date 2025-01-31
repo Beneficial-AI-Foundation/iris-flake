@@ -1,6 +1,6 @@
 # Iris kit with `nix` and `dune`
 
-## Steps
+## Steps: just iris
 
 ### 1. Install nix
 
@@ -23,3 +23,15 @@ This just tells direnv to look at the `.envrc` file and activate the environment
 ### 5. Install direnv in emacs/vscode
 
 Both emacs and vscode have direnv extensions, which you need to use so your editor talks to the right coq compiler. In vscode, you have to type `> direnv allow` in the search/command bar, but in emacs it just works. 
+
+## Steps: refinedc
+
+Not really attempting to nixify refinedc rn
+
+``` sh
+docker compose run --build refinedc
+```
+
+This is an interactive shell that will let you run refinedc commands.
+
+The only thing in docker-compose.yml is that I hate writing "docker build -t" and "docker run -v"
